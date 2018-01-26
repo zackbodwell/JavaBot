@@ -16,6 +16,25 @@ public class JavaBot {
         } else {
             System.out.println("Alright, " + name + ".");
         }
-        //System.out.println("I can do math for you.\n would you like me to do addition, subtracion, multiplacation or division")
+        System.out.println("I can do math for you.\nWould you like me to do addition, subtracion, multiplacation or division?");
+        String choice = userInput.nextLine();
+        switch (choice.toLowerCase()) {
+            case "addition": {
+                break;
+            }
+            case "subtraction": {
+                break;
+            }
+            case "multiplacation": {
+                break;
+            }
+            case "division": {
+                break;
+            }
+            default: {
+                //default to addition
+                break;
+            }
+        }
     }
 }
